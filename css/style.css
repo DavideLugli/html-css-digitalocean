@@ -10,6 +10,14 @@ body {
   padding-bottom: 80px;
 }
 
+.padding_top_30 {
+  padding-top: 30px;
+}
+
+.padding_bottom_30 {
+  padding-bottom: 30px;
+}
+
 /* header */
 .header_top {
   position: fixed;
@@ -34,4 +42,10 @@ body {
 
 .form_container {
   background-color: white;
+}
+
+/* main */
+/* sub-jumbo */
+.sub_jumbo {
+  background-color: rgb(210, 210, 210);
 }
