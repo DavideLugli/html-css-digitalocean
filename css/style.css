@@ -2,6 +2,14 @@ body {
   background-color: purple;
 }
 
+.bg_white {
+  background-color: #fff;
+}
+
+.bg_grey {
+  background-color: #F3F5F9;
+}
+
 .padding_top_80 {
   padding-top: 80px;
 }
@@ -46,17 +54,11 @@ body {
 
 /* main */
 /* sub-jumbo */
-.sub_jumbo {
-  background-color: rgb(210, 210, 210);
-}
+.sub_jumbo {}
 
-#features {
-  background-color: #fafafa;
-}
+#features {}
 
-#slider {
-  background-color: lightgrey;
-}
+#slider {}
 
 /* .slider_box {
   margin: 0 15px;
@@ -76,3 +78,15 @@ body {
   vertical-align: middle;
 
 } */
+/* media small */
+@media screen and (max-width: 768px) {
+  #business .col-xs-12 {
+    padding-bottom: 30px;
+  }
+}
+
+/* media medium */
+@media screen and (min-width: 768px) {}
+
+/* media lg */
+@media screen and (min-width: 1200px) {}
