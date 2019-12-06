@@ -49,3 +49,30 @@ body {
 .sub_jumbo {
   background-color: rgb(210, 210, 210);
 }
+
+#features {
+  background-color: #fafafa;
+}
+
+#slider {
+  background-color: lightgrey;
+}
+
+/* .slider_box {
+  margin: 0 15px;
+} */
+.slider_img {
+  width: 80%;
+}
+
+/* .slider_img::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 12px;
+  content: "\f054";
+  color: red;
+  width: 5%;
+  display: inline-block;
+  vertical-align: middle;
+
+} */
