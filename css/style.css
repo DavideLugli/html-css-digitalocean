@@ -10,6 +10,24 @@ body {
   background-color: #F3F5F9;
 }
 
+.bg_gradient {
+  background: #0575E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #021B79, #0575E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #021B79, #0575E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.btn_white {
+  padding: 15px 25px;
+  background-color: white;
+  color: #0069FF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
 .padding_top_80 {
   padding-top: 80px;
 }
@@ -76,18 +94,8 @@ body {
   width: 5%;
   display: inline-block;
   vertical-align: middle;
-  
-  } */
-#customers {
-  background: #0575E6;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #021B79, #0575E6);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #021B79, #0575E6);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
-}
 
+  } */
 .border_white {
   border-bottom: 1px solid white;
   padding-bottom: 5px;
@@ -95,6 +103,10 @@ body {
 
 #customers .container-fluid.border_white:not(first-child) {
   padding-top: 5px;
+}
+
+.footer {
+  background-color: #010E28;
 }
 
 /* media small */
