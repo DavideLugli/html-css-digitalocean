@@ -2,41 +2,6 @@ body {
   background-color: purple;
 }
 
-.bg_white {
-  background-color: #fff;
-}
-
-.bg_grey {
-  background-color: #F3F5F9;
-}
-
-.bg_gradient {
-  background: #0575E6;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #021B79, #0575E6);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #021B79, #0575E6);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
-}
-
-.btn_white {
-  padding: 15px 25px;
-  background-color: white;
-  color: #0069FF;
-  font-weight: 700;
-  font-size: 16px;
-}
-.btn_white:hover,
-.btn_white:focus,
-.btn_white:active {
-  padding: 15px 25px;
-  background-color: rgba(255, 255, 255, 0.81);
-  color: #0069FF;
-  font-weight: 700;
-  font-size: 16px;
-}
-
 .padding_top_80 {
   padding-top: 80px;
 }
@@ -61,16 +26,94 @@ body {
   padding-bottom: 10px;
 }
 
+.bg_white {
+  background-color: #fff;
+}
+
+.bg_grey {
+  background-color: #F3F5F9;
+}
+
+.bg_gradient {
+  background: #0575E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #021B79, #0575E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #021B79, #0575E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.btn_menu {
+  border: 0;
+  box-shadow: none;
+  font-size: 18px;
+  color: #0069FF;
+}
+
+a.btn_menu {
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+.btn_white_nav {
+  padding: 10px 15px;
+  background-color: white;
+  color: #0069FF;
+  font-size: 14px;
+  border: 1px solid #0069FF;
+}
+
+.btn_white_nav:hover,
+.btn_white_nav:focus,
+.btn_white_nav:active {
+  background-color: #0069FF;
+  color: white;
+}
+
+.btn_white {
+  padding: 15px 25px;
+  background-color: white;
+  color: #0069FF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn_white:hover,
+.btn_white:focus,
+.btn_white:active {
+  padding: 15px 25px;
+  background-color: rgba(255, 255, 255, 0.81);
+  color: #0069FF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
 /* header */
 .header_top {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 3;
-  background-color: yellow;
+  background-color: #FFFFFF;
   width: 100%;
   height: 80px;
   line-height: 80px;
+}
+
+.header_top li:hover a {
+  text-decoration: none;
+  color: #0069FF;
+}
+
+.header_top ul li a {
+  color: #033059;
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.logo_img {
+  width: 140px;
 }
 
 /* jumbo */
