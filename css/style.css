@@ -25,6 +25,11 @@ h4 {
   font-size: 15px;
 }
 
+h4.blue_bold {
+  color: #0a1e45;
+  font-weight: 700;
+}
+
 p {
   color: #838b9a;
 }
@@ -241,11 +246,6 @@ a.btn_menu {
   padding-left: 10px;
 }
 
-#features h4 {
-  color: #0a1e45;
-  font-weight: 700;
-}
-
 #features .list-unstyled li:not(:last-child) {
   padding-bottom: 10px;
 }
@@ -258,35 +258,34 @@ a.btn_menu {
   text-decoration: none;
 }
 
-#slider {}
-
-/* .slider_box {
-  margin: 0 15px;
-  } */
-.slider_img {
-  width: 80%;
+/* slider */
+.chevron_slider {
+  font-size: 25px;
+  color: #838b9a;
 }
 
-/* .slider_img::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 12px;
-  content: "\f054";
-  color: red;
-  width: 5%;
-  display: inline-block;
-  vertical-align: middle;
+.chevron_right {
+  color: #0A1E45;
+}
 
-  } */
+.slider_img {
+  width: 80%;
+  padding: 20px 15px;
+}
+
 .border_white {
   border-bottom: 1px solid white;
   padding-bottom: 5px;
 }
 
+/* sezione business */
+/* sezione customers */
 #customers .container-fluid.border_white:not(:first-child) {
   padding-top: 5px;
 }
 
+/* sezione slider 2 */
+/* sezione footer */
 .footer {
   background-color: #0a1e45;
   color: #808794;
@@ -323,9 +322,11 @@ i.social_footer {
   .xs_padding_top_30 {
     padding-top: 30px;
   }
+
   .xs_margin_bottom_30 {
     margin-bottom: 30px;
   }
+
   #business .col-xs-12 {
     padding-bottom: 30px;
   }
