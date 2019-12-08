@@ -13,6 +13,12 @@ h2 {
   font-weight: 700;
 }
 
+h4 {
+  color: #939EB5;
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .padding_top_80 {
   padding-top: 80px;
 }
@@ -43,6 +49,15 @@ h2 {
 
 .bg_grey {
   background-color: #F3F5F9;
+}
+
+.link_blue {
+  color: #0069FF;
+}
+
+a.link_blue:hover {
+  color: #0069FF;
+  text-decoration: none;
 }
 
 .bg_gradient {
@@ -196,7 +211,18 @@ a.btn_menu {
 
 /* main */
 /* sub-jumbo */
-.sub_jumbo {}
+.sub_jumbo h4 {
+  text-transform: uppercase;
+}
+
+.sub_jumbo {
+  line-height: 90px;
+}
+
+.sub_jumbo .logo_row {
+  width: 80%;
+  height: 80%;
+}
 
 #features {}
 
