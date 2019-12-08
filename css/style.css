@@ -284,6 +284,15 @@ a.btn_menu {
   padding-top: 5px;
 }
 
+#customers h3 {
+  color: white;
+}
+
+#customers a {
+  color: #00D7D2;
+  text-decoration: none;
+}
+
 /* sezione slider 2 */
 /* sezione footer */
 .footer {
@@ -343,6 +352,7 @@ i.social_footer {
   .md_padding_top_30 {
     padding-top: 30px;
   }
+
   .md_padding_bottom_30 {
     padding-bottom: 30px;
   }
