@@ -255,6 +255,10 @@ a.btn_menu {
   text-decoration: none;
 }
 
+#features .col_wrapper {
+  min-height: 150px;
+}
+
 /* slider */
 .chevron_slider {
   font-size: 25px;
