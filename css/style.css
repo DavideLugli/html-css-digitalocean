@@ -274,11 +274,6 @@ a.btn_menu {
   padding: 20px 15px;
 }
 
-.border_white {
-  border-bottom: 1px solid white;
-  padding-bottom: 5px;
-}
-
 /* sezione business */
 /* sezione customers */
 #customers .container-fluid.border_white:not(:first-child) {
@@ -292,6 +287,11 @@ a.btn_menu {
 #customers a {
   color: #00D7D2;
   text-decoration: none;
+}
+
+.border_white {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
 }
 
 /* sezione slider 2 */
