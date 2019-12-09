@@ -35,6 +35,10 @@ p {
   color: #838b9a;
 }
 
+i.fa-circle:hover {
+  font-weight: 900;
+}
+
 .padding_top_80 {
   padding-top: 80px;
 }
